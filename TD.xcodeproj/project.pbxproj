@@ -6,12 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		B37441E01A2B252B0068D08B /* TD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B37441D41A2B252B0068D08B /* TD.framework */; };
-		B37441E71A2B252B0068D08B /* TDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37441E61A2B252B0068D08B /* TDTests.swift */; };
-		B37441F01A2B25720068D08B /* TD.h in Headers */ = {isa = PBXBuildFile; fileRef = B37441D91A2B252B0068D08B /* TD.h */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		B37441E11A2B252B0068D08B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -23,12 +17,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B37441D41A2B252B0068D08B /* TD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B37441D81A2B252B0068D08B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B37441D91A2B252B0068D08B /* TD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TD.h; sourceTree = "<group>"; };
-		B37441DF1A2B252B0068D08B /* TDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B37441E51A2B252B0068D08B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B37441E61A2B252B0068D08B /* TDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDTests.swift; sourceTree = "<group>"; };
+		B37441D41A2B252B0068D08B /* TD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TD.framework; path = "/Users/andrei1/TowerDefence/TD/build/Debug-iphoneos/TD.framework"; sourceTree = "<absolute>"; };
+		B37441DF1A2B252B0068D08B /* TDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TDTests.xctest; path = "/Users/andrei1/TowerDefence/TD/build/Debug-iphoneos/TDTests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +33,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B37441E01A2B252B0068D08B /* TD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,53 +42,7 @@
 		B37441CA1A2B252B0068D08B = {
 			isa = PBXGroup;
 			children = (
-				B37441D61A2B252B0068D08B /* TD */,
-				B37441E31A2B252B0068D08B /* TDTests */,
-				B37441D51A2B252B0068D08B /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		B37441D51A2B252B0068D08B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B37441D41A2B252B0068D08B /* TD.framework */,
-				B37441DF1A2B252B0068D08B /* TDTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B37441D61A2B252B0068D08B /* TD */ = {
-			isa = PBXGroup;
-			children = (
-				B37441D91A2B252B0068D08B /* TD.h */,
-				B37441D71A2B252B0068D08B /* Supporting Files */,
-			);
-			path = TD;
-			sourceTree = "<group>";
-		};
-		B37441D71A2B252B0068D08B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B37441D81A2B252B0068D08B /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B37441E31A2B252B0068D08B /* TDTests */ = {
-			isa = PBXGroup;
-			children = (
-				B37441E61A2B252B0068D08B /* TDTests.swift */,
-				B37441E41A2B252B0068D08B /* Supporting Files */,
-			);
-			path = TDTests;
-			sourceTree = "<group>";
-		};
-		B37441E41A2B252B0068D08B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B37441E51A2B252B0068D08B /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,7 +52,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B37441F01A2B25720068D08B /* TD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,7 +120,7 @@
 				en,
 			);
 			mainGroup = B37441CA1A2B252B0068D08B;
-			productRefGroup = B37441D51A2B252B0068D08B /* Products */;
+			productRefGroup = B37441CA1A2B252B0068D08B;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -217,7 +159,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B37441E71A2B252B0068D08B /* TDTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +337,7 @@
 				B37441EC1A2B252B0068D08B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B37441ED1A2B252B0068D08B /* Build configuration list for PBXNativeTarget "TDTests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +346,7 @@
 				B37441EF1A2B252B0068D08B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
